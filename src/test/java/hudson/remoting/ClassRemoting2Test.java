@@ -410,7 +410,6 @@ class ClassRemoting2Test {
         });
     }
 
-
     private static class InterruptInvocation implements RemoteClassLoader.Interruptible {
         private int invocationCount = 0;
         private int beginInterrupt;

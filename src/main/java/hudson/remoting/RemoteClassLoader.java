@@ -160,8 +160,8 @@ final class RemoteClassLoader extends URLClassLoader {
      *
      * @see #prefetchClassReference(String, Channel)
      */
-    private final ConcurrentHashMap<String, CompletableFuture<Map<String, ClassFile2>>>
-            pendingFetch3 = new ConcurrentHashMap<>();
+    private final ConcurrentHashMap<String, CompletableFuture<Map<String, ClassFile2>>> pendingFetch3 =
+            new ConcurrentHashMap<>();
 
     /**
      * Creates a remotable classloader
